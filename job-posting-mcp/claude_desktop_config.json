@@ -2,10 +2,8 @@
   "mcpServers": {
     "job-posting-mcp": {
       "command": "python3",
-      "args": ["path/to/yout/server.py"],
-      "env": {
-        "PYTHONPATH": "local/path/to/folder/conatining/server.py"
-      }
+      "args": ["path/to/client_server.py"],
+      "env": {}
     }
   }
 }
