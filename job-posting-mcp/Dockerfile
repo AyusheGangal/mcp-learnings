@@ -5,8 +5,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY web_server.py .
+COPY server.py .
 
 EXPOSE 8000
 
-CMD ["python", "web_server.py"]
+CMD ["python", "server.py"]
